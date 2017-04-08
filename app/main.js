@@ -1,13 +1,14 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
-var Content = React.createClass({
-    render: function () {
-        return (
-            <div>
-                <b>Congratulations</b>, you are now ready to implement your client side application! Enjoy :-)
-            </div>
-        );
-    }
-});
-ReactDOM.render(<Content />, document.getElementById('content'));
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+import Dashboard from './components/dashboard';
+
+const App = () => (
+    <Dashboard/>
+);
+
+ReactDOM.render(<App />, document.getElementById('content'));

@@ -18,10 +18,13 @@
 7. Install Babel (Enable ES6 use and conversion from jfx): ``npm install --save-dev babel-preset-react babel-preset-es2015 babel-core babel-loader``
 8. Add Babel loader to webpack.config.js.
 9. Create the dist folder
+10. Install material-ui: npm install material-ui
     
     
 ## Instalation in machine (From source from repo)
 
 1. npm update    
     
-#### Reference: https://github.com/jansoren/react-webpack-tutorial    
+#### References:
+- https://github.com/jansoren/react-webpack-tutorial
+- https://www.tinymce.com/docs/integrations/react/
